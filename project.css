@@ -1,0 +1,143 @@
+#header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #f7f7f7;
+	padding: 0 50px;
+}
+
+#header-img {
+	width: 120px;
+	height: 120px;
+	margin-top: 30px;
+}
+
+body {
+	background-color: #F2EEDF;
+	padding-left: 50px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	background-color: #F2EEDF;
+}
+
+#logo-name {
+	font-size: 2em;
+	font-weight: 900;
+	font-family: 'Bad Script', cursive;
+	color: #060606;
+	margin-left: 30px;
+}
+
+#nav-bar {
+	align-self: center;
+}
+
+#nav-bar>ul {
+	display: flex;
+}
+
+#nav-bar>ul li {
+	list-style: none;
+	margin-right: 20px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #1D1D1D;
+}
+
+#home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+}
+
+#submit {
+	align-self: center;
+}
+
+.grid {
+	display: flex;
+}
+
+.icon {
+	margin-right: 20px;
+	align-self: center;
+	color: #43AA8B;
+}
+
+.image {
+	width: 200px;
+}
+
+#product-container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btn {
+	padding: 0 20px;
+	height: 40px;
+	font-size: 1em;
+	font-weight: 600;
+	text-transform: uppercase;
+	border: 2px black solid;
+	border-radius: 2px;
+	background-color: #43AA8B;
+	cursor: pointer;
+	margin-top: 20px;
+	box-shadow: 5px 10px #D3E2C9;
+	font-family: inherit;
+}
+
+#email {
+	font-family: inherit;
+	border: 1px black solid;
+	border-radius: 2px;
+	padding: 0 20px;
+	height: 40px;
+}
+
+#video {
+	align-self: center;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin-top: 80px;
+	padding: 5px;
+	background-color: #D3E2C9;
+}
+
+footer>ul {
+	display: flex;
+}
+
+footer>ul li {
+	list-style: none;
+	margin-right: 20px;
+}
+
+.footer-link {
+	text-decoration: none;
+}
